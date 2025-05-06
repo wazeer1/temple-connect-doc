@@ -1,6 +1,6 @@
-# Temple connect: Connecting Devotees and Temples Digitally
+# Temple Connect: Connecting Devotees and Temples Digitally
 
-![Temple connect Logo](https://example.com/devconnect-logo.png)
+![Temple Connect Logo](https://example.com/templeconnect-logo.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -30,12 +30,13 @@
     - [Integrations](#integrations)
 6. [User Interface Mockups](#user-interface-mockups)
 7. [Assumptions and Constraints](#assumptions-and-constraints)
-8. [Appendices](#appendices)
+8. [Competitors and Our Advantage](#competitors-and-our-advantage)
+9. [Appendices](#appendices)
 
 ## 1. Introduction
 
 ### 1.1. Purpose
-This document defines the requirements for Temple connect, a digital platform designed to connect Hindu temples across India with devotees. The platform will enable devotees to:
+This document defines the requirements for Temple Connect, a digital platform designed to connect Hindu temples across India with devotees. The platform will enable devotees to:
 
 - Book archanas, poojas, and nerchas online.
 - Receive prasadam and official receipts delivered to their homes.
@@ -45,7 +46,7 @@ This document defines the requirements for Temple connect, a digital platform de
 This initiative aims to make spiritual services more accessible, efficient, and transparent through the use of modern technology.
 
 ### 1.2. Scope
-Temple connect will:
+Temple Connect will:
 
 - Allow users to discover and book services at verified Hindu temples across India.
 - Offer a web and mobile application for devotees and a dedicated admin panel for temple staff.
@@ -86,14 +87,14 @@ This document is intended for the following stakeholders:
 ## 2. Overall Description
 
 ### 2.1. Product Perspective
-Temple connect will be implemented as a standalone Software as a Service (SaaS) application comprising three distinct interfaces:
+Temple Connect will be implemented as a standalone Software as a Service (SaaS) application comprising three distinct interfaces:
 
 - **User Interface**: A web application and a mobile application (developed using React and React Native, respectively) for devotees.
 - **Temple Admin Panel**: A web portal designed for temple staff to manage their services and bookings.
 - **Super Admin Panel**: A web portal for ORAAK Technologies staff to oversee the entire platform ecosystem.
 
 ### 2.2. Product Functions
-The core functionalities of Temple connect include:
+The core functionalities of Temple Connect include:
 
 - User registration and profile management.
 - Advanced search capabilities for temples and pooja services.
@@ -112,7 +113,7 @@ The core functionalities of Temple connect include:
 | Super Admin (ORAAK) | ORAAK Technologies staff responsible for managing the platform, approving temples, monitoring transactions, and handling system-level configurations. |
 
 ### 2.4. Operating Environment
-The Temple connect platform will operate within the following environment:
+The Temple Connect platform will operate within the following environment:
 
 - **Web Application**: Built using React.js for the frontend and a Django backend.
 - **Mobile Application**: Developed using React Native for cross-platform compatibility (Android and iOS).
@@ -218,7 +219,22 @@ The system architecture should be modular to facilitate easy updates, debugging,
 - The initial phase of prasadam delivery will be limited to locations within India.
 - The feasibility of real-time live streaming of poojas will depend on the availability of necessary infrastructure at the respective temples.
 
-## 8. Appendices
+## 8. Competitors and Our Advantage
+
+### Competitors
+- **TempleBook**: A popular platform for booking temple services.
+- **DivineConnect**: Another platform that connects devotees with temples.
+- **Poojakart**: A service that allows users to book poojas and receive prasadam.
+
+### Our Advantage
+- **Comprehensive Service Offering**: Temple Connect offers a wider range of services, including archanas, nerchas, and special poojas, which are not always available on competitor platforms.
+- **Real-Time Updates and Tracking**: Temple Connect provides real-time updates on temple events, pooja statuses, and prasadam delivery tracking, ensuring devotees are always informed.
+- **User-Friendly Interface**: Our platform is designed with a mobile-first approach, ensuring a seamless and intuitive experience for users on both web and mobile applications.
+- **Multi-Language Support**: Temple Connect supports multiple languages, making it accessible to a broader audience across India.
+- **Secure and Reliable**: With robust security measures and compliance with data privacy regulations, Temple Connect ensures the safety and privacy of user data.
+- **Community Engagement**: Temple Connect allows users to leave reviews and ratings for temples and services, fostering a community-driven platform that helps other devotees make informed decisions.
+
+## 9. Appendices
 - Sample list of major temples to be onboarded initially.
 - Example matrix detailing various pooja types and their associated pricing.
 - Illustrative workflow of the prasadam delivery process.
