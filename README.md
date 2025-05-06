@@ -1,6 +1,6 @@
-# DevConnect: Connecting Devotees and Temples Digitally
+# Temple connect: Connecting Devotees and Temples Digitally
 
-![DevConnect Logo](https://example.com/devconnect-logo.png)
+![Temple connect Logo](https://example.com/devconnect-logo.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -35,7 +35,7 @@
 ## 1. Introduction
 
 ### 1.1. Purpose
-This document defines the requirements for DevConnect, a digital platform designed to connect Hindu temples across India with devotees. The platform will enable devotees to:
+This document defines the requirements for Temple connect, a digital platform designed to connect Hindu temples across India with devotees. The platform will enable devotees to:
 
 - Book archanas, poojas, and nerchas online.
 - Receive prasadam and official receipts delivered to their homes.
@@ -45,7 +45,7 @@ This document defines the requirements for DevConnect, a digital platform design
 This initiative aims to make spiritual services more accessible, efficient, and transparent through the use of modern technology.
 
 ### 1.2. Scope
-DevConnect will:
+Temple connect will:
 
 - Allow users to discover and book services at verified Hindu temples across India.
 - Offer a web and mobile application for devotees and a dedicated admin panel for temple staff.
@@ -86,14 +86,14 @@ This document is intended for the following stakeholders:
 ## 2. Overall Description
 
 ### 2.1. Product Perspective
-DevConnect will be implemented as a standalone Software as a Service (SaaS) application comprising three distinct interfaces:
+Temple connect will be implemented as a standalone Software as a Service (SaaS) application comprising three distinct interfaces:
 
 - **User Interface**: A web application and a mobile application (developed using React and React Native, respectively) for devotees.
 - **Temple Admin Panel**: A web portal designed for temple staff to manage their services and bookings.
 - **Super Admin Panel**: A web portal for ORAAK Technologies staff to oversee the entire platform ecosystem.
 
 ### 2.2. Product Functions
-The core functionalities of DevConnect include:
+The core functionalities of Temple connect include:
 
 - User registration and profile management.
 - Advanced search capabilities for temples and pooja services.
@@ -112,7 +112,7 @@ The core functionalities of DevConnect include:
 | Super Admin (ORAAK) | ORAAK Technologies staff responsible for managing the platform, approving temples, monitoring transactions, and handling system-level configurations. |
 
 ### 2.4. Operating Environment
-The DevConnect platform will operate within the following environment:
+The Temple connect platform will operate within the following environment:
 
 - **Web Application**: Built using React.js for the frontend and a Django backend.
 - **Mobile Application**: Developed using React Native for cross-platform compatibility (Android and iOS).
